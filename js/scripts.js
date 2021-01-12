@@ -32,3 +32,5 @@ $(document).ready(function() {
     });
   });
 });
+
+// $("ul#salad").prepend("<li>Hello!</li>");
