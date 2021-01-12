@@ -1,11 +1,16 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
   });
 
-  $(".clickable2").click(function () {
-    $("#walrus-location-hidden").toggle();
-    $("#walrus-location-showing").toggle();
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
   });
 });

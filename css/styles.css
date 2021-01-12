@@ -1,27 +1,11 @@
-#walrus-showing {
-  display: none;
+.green-background {
+  background-color: green;
 }
 
-#walrus-location-showing {
-  display: none;
+.yellow-background {
+  background-color: yellow;
 }
 
-
-.clickable {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable:hover {
-  text-decoration: underline;
-}
-
-
-.clickable2 {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable2:hover {
-  text-decoration: underline;
+.red-background {
+  background-color: red;
 }
